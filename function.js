@@ -166,7 +166,7 @@ function CariLuasSebenarnya(skala, dlmpeta) {
     result += skala.toString();
     result += ' dan luas tanah dalam denah '
     result += dlmpeta.toString();
-    result += 'cm, persegi luas tanah sebenarnya berapa kilometer?'
+    result += 'cm persegi, luas tanah sebenarnya berapa meter persegi?'
 
     return result;
 }
@@ -181,7 +181,7 @@ function CariSkalaLuas(sebenarnya, dalampeta) {
 
     result += 'Jika luas sebenarnya, ';
     result += sebenarnya.toString();
-    result += 'km persegi dan luas tanah di denah '
+    result += 'meter persegi dan luas tanah di denah '
     result += dalampeta.toString();
     result += 'cm persegi, skala di denah berapa?'
     
